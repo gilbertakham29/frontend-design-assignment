@@ -29,28 +29,28 @@ export default function ProductSection() {
                   src="/Table.png"
                   alt="Thumbnail 1"
                   width={50}
-                  height={15}
+                  height={50}
                   className=" object-cover border rounded cursor-pointer"
                 />
                 <Image
                   src="/Table.png"
                   alt="Thumbnail 2"
                   width={50}
-                  height={15}
+                  height={50}
                   className=" object-cover border rounded cursor-pointer"
                 />
                 <Image
                   src="/Table.png"
                   alt="Thumbnail 3"
                   width={50}
-                  height={15}
+                  height={50}
                   className=" object-cover border rounded cursor-pointer"
                 />
                 <Image
                   src="/Table.png"
                   alt="Thumbnail 4"
                   width={50}
-                  height={15}
+                  height={50}
                   className=" object-cover border rounded cursor-pointer"
                 />
               </div>
@@ -165,7 +165,7 @@ export default function ProductSection() {
                 >
                   -
                 </button>
-                <span className="px-4 py-1">{quantity}</span>
+                <span className="px-4 py-1 w-10 text-center">{quantity}</span>
                 <button
                   onClick={() => handleChange(true)}
                   className="px-3 py-1 bg-gray-100 text-lg font-bold hover:bg-gray-200"
@@ -179,11 +179,11 @@ export default function ProductSection() {
             </div>
             {/*Accordion Sections */}
             <div className=" border-t-gray-100 mt-6 pt-4">
-              <button className="flex items-center justify-between w-full py-3 border-b-gray-100">
+              <button className="flex items-center justify-between w-full py-3 border-b-gray-100 transition-all duration-300">
                 <span className="text-lg font-medium">LIVRAISONS</span>
                 <span className="text-xl">+</span>
               </button>
-              <button className="flex items-center justify-between w-full py-3 border-b-gray-100">
+              <button className="flex items-center justify-between w-full py-3 border-b-gray-100 transition-all duration-300">
                 <span className="text-lg font-medium">QUESTIONS</span>
                 <span className="text-xl">+</span>
               </button>
