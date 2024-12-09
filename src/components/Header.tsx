@@ -16,7 +16,12 @@ export default function Header() {
     <>
       <div className="flex flex-col sm:flex-row justify-between items-center gap-4 p-4 sm:px-6 lg:px-10 mx-6">
         <div className="flex justify-between items-center w-full sm:w-auto">
-          <Image src="/Group.png" height={100} width={150} alt="company_logo" />
+          <Image
+            src="/Group.webp"
+            height={100}
+            width={150}
+            alt="company_logo"
+          />
           <button
             aria-label="dropdown toogle"
             className="text-gray-500 lg:hidden   font-medium rounded-lg text-sm px-4 py-2.5"
@@ -232,7 +237,7 @@ export default function Header() {
           {/* Mobile view*/}
 
           <div>
-            <Image src="/Avatar.png" width={50} height={50} alt="avatar" />
+            <Image src="/Avatar.webp" width={50} height={50} alt="avatar" />
           </div>
           <div className="inline-flex flex-col sm:flex-row items-center gap-2">
             <span>{lang}</span>

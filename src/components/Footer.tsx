@@ -5,7 +5,7 @@ export default function Footer() {
       <div className="flex flex-col lg:flex-row justify-between items-start gap-8">
         <div className="flex flex-col lg:flex-row justify-between gap-8 items-start">
           <Image
-            src="/Group.png"
+            src="/Group.webp"
             height={100}
             width={150}
             alt="company_logo"
@@ -58,7 +58,7 @@ export default function Footer() {
             </div>
             <div className="border p-2 border-gray-300 rounded-sm">
               <Image
-                src="/instagram.png"
+                src="/instagram.webp"
                 width={20}
                 height={30}
                 alt="instagram"
@@ -66,7 +66,7 @@ export default function Footer() {
             </div>
             <div className="border p-2 border-gray-300 rounded-sm">
               <Image
-                src="/linkedin-in.png"
+                src="/linkedin-in.webp"
                 width={20}
                 height={30}
                 alt="linkedin"

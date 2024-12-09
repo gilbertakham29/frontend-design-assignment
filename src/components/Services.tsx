@@ -16,7 +16,7 @@ export default function Services() {
           <div className="flex flex-col items-center text-center">
             <div className="mb-3 ">
               <Image
-                src="/Group1.png"
+                src="/Group1.webp"
                 width={50}
                 height={50}
                 alt="group1"
@@ -30,7 +30,7 @@ export default function Services() {
           <div className="flex flex-col items-center text-center">
             <div className="mb-3">
               <Image
-                src="/Group2.png"
+                src="/Group2.webp"
                 width={50}
                 height={50}
                 alt="group2"
@@ -44,7 +44,7 @@ export default function Services() {
           <div className="flex flex-col items-center text-center">
             <div className="mb-3 ">
               <Image
-                src="/Group3.png"
+                src="/Group3.webp"
                 width={50}
                 height={50}
                 alt="group3"
@@ -58,7 +58,7 @@ export default function Services() {
           <div className="flex flex-col items-center text-center">
             <div className="mb-3">
               <Image
-                src="/Group4.png"
+                src="/Group4.webp"
                 width={50}
                 height={50}
                 alt="group4"
@@ -75,7 +75,7 @@ export default function Services() {
       <div className="flex flex-col gap-4 lg:flex-row items-center justify-between bg-white p-4 lg:p-8 shadow-md mx-4 lg:mx-20">
         <div className="w-full lg:w-1/2 mb-6 lg:mb-0">
           <Image
-            src="/Sofa.png"
+            src="/Sofa.webp"
             alt="sofa"
             className="w-full rounded-lg shadow-md"
             width={100}

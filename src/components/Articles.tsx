@@ -8,7 +8,7 @@ export default function Articles() {
     description: "0,35€/Pièce - REF : VABGN5",
     tag: "ART DE LA TABLE",
     quantity: "20 pièces",
-    image: "/TableOne.png",
+    image: "/TableOne.webp",
   });
   const scrollContainerRef = React.useRef<HTMLDivElement>(null);
   const scrollLeft = () => {

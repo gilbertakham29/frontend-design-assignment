@@ -7,7 +7,7 @@ export default function ArticleSection() {
     description: "0,35€/Pièce - REF : VABGN5",
     tag: "ART DE LA TABLE",
     quantity: "20 pièces",
-    image: "/TableOne.png",
+    image: "/TableOne.webp",
   });
   return (
     <div className="p-4 lg:p-8">

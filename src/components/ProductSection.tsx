@@ -26,28 +26,28 @@ export default function ProductSection() {
             <div className="  inline-flex border-2 border-gray-100 p-2">
               <div className="flex-gap-2  mt-4">
                 <Image
-                  src="/Table.png"
+                  src="/Table.webp"
                   alt="Thumbnail 1"
                   width={50}
                   height={50}
                   className=" object-cover border rounded cursor-pointer"
                 />
                 <Image
-                  src="/Table.png"
+                  src="/Table.webp"
                   alt="Thumbnail 2"
                   width={50}
                   height={50}
                   className=" object-cover border rounded cursor-pointer"
                 />
                 <Image
-                  src="/Table.png"
+                  src="/Table.webp"
                   alt="Thumbnail 3"
                   width={50}
                   height={50}
                   className=" object-cover border rounded cursor-pointer"
                 />
                 <Image
-                  src="/Table.png"
+                  src="/Table.webp"
                   alt="Thumbnail 4"
                   width={50}
                   height={50}
@@ -56,7 +56,7 @@ export default function ProductSection() {
               </div>
 
               <Image
-                src="/Cheese.png"
+                src="/Cheese.webp"
                 alt="thumbnail"
                 width={500}
                 height={100}
@@ -66,7 +66,7 @@ export default function ProductSection() {
             {/* Additional Info Sections*/}
             <div className="border-t mt-6 pt-4">
               <h2 className="text-lg font-medium mb-2">Description produit</h2>
-              <p className="text-gray-600">
+              <p className="text-gray-600 lg:line-clamp-none line-clamp-3">
                 Festi vous propose à la location un/une &quot;Jewel – grand
                 couteau/10pc&quot; pour votre évenement et ce dès 0,35 € / pièce
                 (HTVA). Que ce soit pour votre mariage, une fête
@@ -84,7 +84,7 @@ export default function ProductSection() {
 
           {/* Right Section: Product Details */}
           <div className="lg:w-1/2">
-            <h1 className="text-2xl font-semibold mb-4">
+            <h1 className="lg:text-2xl text-lg font-semibold mb-4">
               Cheese – appareil à raclette 1/2 roue
             </h1>
             <p className="text-xl text-gray-700 font-medium mb-2">
