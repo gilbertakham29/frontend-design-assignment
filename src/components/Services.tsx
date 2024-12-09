@@ -86,9 +86,9 @@ export default function Services() {
         <div className="w-full p-4 lg:p-6 lg:w-1/2 text-center rounded-lg lg:text-left bg-pink-100">
           <h3 className="text-2xl font-semibold mb-4">
             S&apos;inscrire & economiser{" "}
-            <span className="text-teal-400">10%</span>
+            <span className="text-teal-600">10%</span>
           </h3>
-          <p className="text-gray-500 mb-6">
+          <p className="text-gray-800 mb-6">
             Office ipsum you must be muted. Synergize helicopter prioritize
             anyway job due harvest most opportunity didn&apos;t. Yet busy any
             meeting shark light marginalised 4-blocker message. Productize
@@ -105,7 +105,7 @@ export default function Services() {
             <button
               aria-label="subscribe to email"
               type="submit"
-              className="bg-teal-400 text-white p-2 rounded-lg hover:bg-teal-500"
+              className="bg-teal-600 text-white p-2 rounded-lg hover:bg-teal-500"
             >
               S&apos;INSCRIRE →
             </button>

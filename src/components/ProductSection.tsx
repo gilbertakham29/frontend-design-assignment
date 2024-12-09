@@ -16,7 +16,7 @@ export default function ProductSection() {
             Home
           </a>{" "}
           <div className="border rounded-full w-1 p-1 h-1 bg-stone-200"></div>{" "}
-          <span className="text-stone-400">Art de la table</span>
+          <span className="text-stone-700">Art de la table</span>
         </nav>
       </header>
       <main className="max-w-7xl mx-auto">
@@ -175,7 +175,7 @@ export default function ProductSection() {
                   +
                 </button>
               </div>
-              <button className="px-6 w-full py-2 bg-teal-300 text-white rounded-md hover:bg-teal-400">
+              <button className="px-6 w-full py-2 bg-teal-600 text-white rounded-md hover:bg-teal-400">
                 AJOUTER AU PANIER
               </button>
             </div>
