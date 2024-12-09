@@ -175,7 +175,7 @@ export default function ProductSection() {
                   +
                 </button>
               </div>
-              <button className="px-6 w-full py-2 bg-teal-600 text-white rounded-md hover:bg-teal-400">
+              <button className="px-6 w-full py-2 bg-teal-800 text-white rounded-md hover:bg-teal-400">
                 AJOUTER AU PANIER
               </button>
             </div>

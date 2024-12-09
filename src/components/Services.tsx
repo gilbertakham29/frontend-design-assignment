@@ -105,7 +105,7 @@ export default function Services() {
             <button
               aria-label="subscribe to email"
               type="submit"
-              className="bg-teal-600 text-white p-2 rounded-lg hover:bg-teal-500"
+              className="bg-teal-800 text-white p-2 rounded-lg hover:bg-teal-500"
             >
               S&apos;INSCRIRE →
             </button>
