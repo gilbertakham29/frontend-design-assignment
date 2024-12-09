@@ -209,7 +209,7 @@ export default function Header() {
           <div className="inline-flex justify-center gap-4">
             <button
               aria-label="add items to cart"
-              className="text-white bg-blue-400 hover:bg-blue-500 font-medium rounded-lg text-sm px-4 py-2.5 mx-2 inline-flex items-center gap-1"
+              className="text-white bg-blue-600 hover:bg-blue-500 font-medium rounded-lg text-sm px-4 py-2.5 mx-2 inline-flex items-center gap-1"
             >
               <svg
                 width="20"
@@ -236,7 +236,7 @@ export default function Header() {
           </div>
           <div className="inline-flex flex-col sm:flex-row items-center gap-2">
             <span>{lang}</span>
-            <select onChange={handleChange}>
+            <select aria-label="select your language" onChange={handleChange}>
               <option value="FR">FR</option>
               <option value="EN">EN</option>
             </select>

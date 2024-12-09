@@ -63,7 +63,10 @@ export default function Articles() {
                 className="min-w-[200px] lg:min-w-[240px] flex-shrink-0 border rounded-lg p-4 bg-white shadow-sm"
               >
                 <div className="flex justify-between items-center">
-                  <button className="text-gray-400 hover:text-red-500">
+                  <button
+                    aria-label="like counts"
+                    className="text-gray-400 hover:text-red-500"
+                  >
                     <svg
                       width="20"
                       height="20"
