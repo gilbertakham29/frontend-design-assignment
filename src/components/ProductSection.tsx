@@ -58,9 +58,8 @@ export default function ProductSection() {
               <Image
                 src="/Cheese.webp"
                 alt="thumbnail"
-                width={500}
-                height={100}
-                className="object-cover rounded-md mb-4"
+                width={640}
+                height={360}
               />
             </div>
             {/* Additional Info Sections*/}
