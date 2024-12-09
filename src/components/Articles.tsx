@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Articles() {
   const items = Array(6).fill({
     title: "Title",
-    price: "0€",
+    price: "0",
     description: "0,35€/Pièce - REF : VABGN5",
     tag: "ART DE LA TABLE",
     quantity: "20 pièces",
@@ -98,7 +98,9 @@ export default function Articles() {
                 />
                 <div className="flex flex-row justify-between items-start">
                   <h3 className="text-lg font-medium mb-2">{item.title}</h3>
-                  <p className="text-xl font-bold mb-1">{item.price}</p>
+                  <p className="text-xl font-bold mb-1">
+                    {item.price} <sup>€</sup>
+                  </p>
                 </div>
                 <div className="flex flex-row justify-between gap-4 items-center">
                   <p className="text-gray-600 text-sm">{item.description}</p>
