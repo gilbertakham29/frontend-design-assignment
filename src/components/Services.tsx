@@ -103,6 +103,7 @@ export default function Services() {
               className="border border-gray-300 rounded-l-lg px-4 py-2 w-full lg:w-3/4 focus:outline-none "
             />
             <button
+              aria-label="subscribe to email"
               type="submit"
               className="bg-teal-400 text-white p-2 rounded-lg hover:bg-teal-500"
             >

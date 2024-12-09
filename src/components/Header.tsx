@@ -18,6 +18,7 @@ export default function Header() {
         <div className="flex justify-between items-center w-full sm:w-auto">
           <Image src="/Group.png" height={100} width={150} alt="company_logo" />
           <button
+            aria-label="dropdown toogle"
             className="text-gray-500 lg:hidden   font-medium rounded-lg text-sm px-4 py-2.5"
             onClick={toggleDropDown}
           >
@@ -60,6 +61,7 @@ export default function Header() {
                 </div>
 
                 <button
+                  aria-label="close the dropdown"
                   className=" p-1 text-gray-500 hover:text-gray-800"
                   onClick={toggleDropDown}
                 >
@@ -102,7 +104,10 @@ export default function Header() {
               </li>
 
               <div className="inline-flex p-2  gap-4">
-                <button className="text-gray-900 lg:text-white lg:bg-blue-400 bg-gray-200  lg:hover:bg-blue-500 font-medium rounded-lg px-2 py-1 text-sm lg:px-4 lg:py-2.5 lg:mx-2 inline-flex items-center gap-1">
+                <button
+                  aria-label="add items to cart"
+                  className="text-gray-900 lg:text-white lg:bg-blue-400 bg-gray-200  lg:hover:bg-blue-500 font-medium rounded-lg px-2 py-1 text-sm lg:px-4 lg:py-2.5 lg:mx-2 inline-flex items-center gap-1"
+                >
                   <svg
                     width="20"
                     height="20"
@@ -202,7 +207,10 @@ export default function Header() {
             <span className="text-center">24</span>
           </div>
           <div className="inline-flex justify-center gap-4">
-            <button className="text-white bg-blue-400 hover:bg-blue-500 font-medium rounded-lg text-sm px-4 py-2.5 mx-2 inline-flex items-center gap-1">
+            <button
+              aria-label="add items to cart"
+              className="text-white bg-blue-400 hover:bg-blue-500 font-medium rounded-lg text-sm px-4 py-2.5 mx-2 inline-flex items-center gap-1"
+            >
               <svg
                 width="20"
                 height="20"

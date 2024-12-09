@@ -38,12 +38,14 @@ export default function Articles() {
       <div className="relative">
         {/* Scroll Buttons*/}
         <button
+          aria-label="scroll to left"
           onClick={scrollLeft}
           className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-teal-400 text-white p-4 rounded-sm z-10 px-5 shadow-md hover:bg-teal-500"
         >
           &lt;
         </button>
         <button
+          aria-label="scroll to right"
           onClick={scrollRight}
           className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-teal-400 text-white p-4 rounded-sm px-5 z-10 shadow-md hover:bg-teal-500"
         >

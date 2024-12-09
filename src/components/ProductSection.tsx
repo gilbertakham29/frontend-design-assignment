@@ -160,6 +160,7 @@ export default function ProductSection() {
             <div className=" lg:mt-40 mt-4 flex items-center gap-4 mb-4">
               <div className="flex items-center border rounded-md">
                 <button
+                  aria-label="decrease quantity"
                   onClick={() => handleChange(false)}
                   className="px-3 py-1 bg-gray-100 text-lg font-bold hover:bg-gray-200"
                 >
@@ -167,6 +168,7 @@ export default function ProductSection() {
                 </button>
                 <span className="px-4 py-1 w-10 text-center">{quantity}</span>
                 <button
+                  aria-label="increase quantity"
                   onClick={() => handleChange(true)}
                   className="px-3 py-1 bg-gray-100 text-lg font-bold hover:bg-gray-200"
                 >
@@ -179,11 +181,17 @@ export default function ProductSection() {
             </div>
             {/*Accordion Sections */}
             <div className=" border-t-gray-100 mt-6 pt-4">
-              <button className="flex items-center justify-between w-full py-3 border-b-gray-100 transition-all duration-300">
+              <button
+                aria-label="view more"
+                className="flex items-center justify-between w-full py-3 border-b-gray-100 transition-all duration-300"
+              >
                 <span className="text-lg font-medium">LIVRAISONS</span>
                 <span className="text-xl">+</span>
               </button>
-              <button className="flex items-center justify-between w-full py-3 border-b-gray-100 transition-all duration-300">
+              <button
+                aria-label="view-more"
+                className="flex items-center justify-between w-full py-3 border-b-gray-100 transition-all duration-300"
+              >
                 <span className="text-lg font-medium">QUESTIONS</span>
                 <span className="text-xl">+</span>
               </button>
