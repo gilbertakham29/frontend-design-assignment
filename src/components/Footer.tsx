@@ -2,6 +2,8 @@ import Image from "next/image";
 export default function Footer() {
   return (
     <div className="p-8 lg:p-24 bg-gray-100">
+      {" "}
+      {/* Footer of the page - responsive*/}
       <div className="flex flex-col lg:flex-row justify-between items-start gap-8">
         <div className="flex flex-col lg:flex-row justify-between gap-8 items-start">
           <Image

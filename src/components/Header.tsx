@@ -14,6 +14,7 @@ export default function Header() {
   };
   return (
     <>
+      {/* This is the header where all the logos,search bar and other items are placed*/}
       <div className="flex flex-col sm:flex-row justify-between items-center gap-4 p-4 sm:px-6 lg:px-10 mx-6">
         <div className="flex justify-between items-center w-full sm:w-auto">
           <Image
@@ -42,6 +43,7 @@ export default function Header() {
               />
             </svg>
           </button>
+          {/* Mobile view*/}
           {dropdown && (
             <ul className="flex flex-col absolute right-0 mt-2 w-48 bg-white border-gray-200 rounded-lg shadow-md">
               <li className="flex justify-between items-center gap-1">
@@ -234,7 +236,6 @@ export default function Header() {
               Panier
             </button>
           </div>
-          {/* Mobile view*/}
 
           <div>
             <Image src="/Avatar.webp" width={50} height={50} alt="avatar" />

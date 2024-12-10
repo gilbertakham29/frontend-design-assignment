@@ -3,6 +3,7 @@ import React from "react";
 import Image from "next/image";
 export default function Articles() {
   const items = Array(6).fill({
+    // using the method on Javascript to create an array to iterate
     title: "Title",
     price: "0",
     description: "0,35€/Pièce - REF : VABGN5",
@@ -12,6 +13,7 @@ export default function Articles() {
   });
   const scrollContainerRef = React.useRef<HTMLDivElement>(null);
   const scrollLeft = () => {
+    // for scrolling to left
     if (scrollContainerRef.current) {
       scrollContainerRef.current.scrollBy({
         left: -300,
@@ -20,10 +22,11 @@ export default function Articles() {
     }
   };
   const scrollRight = () => {
+    // for scrolling to right
     if (scrollContainerRef.current) {
       scrollContainerRef.current.scrollBy({
         left: 300,
-        behavior: "auto",
+        behavior: "smooth",
       });
     }
   };

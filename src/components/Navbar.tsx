@@ -2,6 +2,7 @@ import React from "react";
 export default function Navbar() {
   return (
     <ul className="flex flex-nowrap overflow-x-auto whitespace-nowrap text-xs font-medium text-center text-gray-500 border-b border-gray-200">
+      {/* List of items in the navbar*/}
       <li className="">
         <a
           href="#"
