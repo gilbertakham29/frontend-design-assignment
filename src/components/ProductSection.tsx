@@ -30,6 +30,7 @@ export default function ProductSection() {
                   alt="Thumbnail 1"
                   width={50}
                   height={50}
+                  layout="fixed"
                   className=" object-cover border rounded cursor-pointer"
                 />
                 <Image
@@ -37,6 +38,7 @@ export default function ProductSection() {
                   alt="Thumbnail 2"
                   width={50}
                   height={50}
+                  layout="fixed"
                   className=" object-cover border rounded cursor-pointer"
                 />
                 <Image
@@ -44,6 +46,7 @@ export default function ProductSection() {
                   alt="Thumbnail 3"
                   width={50}
                   height={50}
+                  layout="fixed"
                   className=" object-cover border rounded cursor-pointer"
                 />
                 <Image
@@ -60,6 +63,7 @@ export default function ProductSection() {
                 alt="thumbnail"
                 width={640}
                 height={360}
+                layout="intrinsic"
               />
             </div>
             {/* Additional Info Sections*/}
@@ -157,11 +161,11 @@ export default function ProductSection() {
 
             {/*Quantity and Add to Cart */}
             <div className=" lg:mt-40 mt-4 flex items-center gap-4 mb-4">
-              <div className="flex items-center border rounded-md">
+              <div className="flex items-center w-[120px] border rounded-md">
                 <button
                   aria-label="decrease quantity"
                   onClick={() => handleChange(false)}
-                  className="px-3 py-1 bg-gray-100 text-lg font-bold hover:bg-gray-200"
+                  className="  px-3 py-1 bg-gray-100 text-lg font-bold hover:bg-gray-200"
                 >
                   -
                 </button>
@@ -169,7 +173,7 @@ export default function ProductSection() {
                 <button
                   aria-label="increase quantity"
                   onClick={() => handleChange(true)}
-                  className="px-3 py-1 bg-gray-100 text-lg font-bold hover:bg-gray-200"
+                  className=" w-10 h-10px-3 py-1 bg-gray-100 text-lg font-bold hover:bg-gray-200"
                 >
                   +
                 </button>
