@@ -63,6 +63,7 @@ export default function ProductSection() {
                 alt="thumbnail"
                 width={640}
                 height={360}
+                priority
                 layout="intrinsic"
               />
             </div>
